@@ -415,7 +415,7 @@ ssl_install() {
     fi
     judge "安装 SSL 证书生成脚本依赖"
 
-    curl https://github.com/Neilpang/acme.sh | sh
+    curl https://raw.githubusercontent.com/acmesh-official/acme.sh/master/acme.sh | sh
     judge "安装 SSL 证书生成脚本"
 }
 domain_check() {
